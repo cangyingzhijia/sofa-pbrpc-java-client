@@ -1,0 +1,12 @@
+package echo;
+
+option cc_generic_services = true;
+option java_generic_services = true;
+
+message EchoMessage {
+    optional string data = 1;
+}
+
+service EchoService {
+    rpc Echo(EchoMessage) returns(EchoMessage);
+}
