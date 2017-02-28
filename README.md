@@ -1,6 +1,6 @@
 # sofa-pbrpc-java-client
 java实现的sofa-pbrpc client端库，用于与sofa-pbrpc server端进行rpc调用
-
+[sofa pbrpc](https://github.com/baidu/sofa-pbrpc)
 # Example
 
     package com.cangyingzhijia.rpc.sofa;
